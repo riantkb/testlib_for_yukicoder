@@ -1,5 +1,5 @@
 # testlib for yukicoder
-yukicoder で [testlib](https://github.com/MikeMirzayanov/testlib) ( + [rime](https://github.com/icpc-jag/rime)) を用いた入力生成器、入力検証器、スペシャルジャッジ生成を行うためのサンプルコード
+[yukicoder](https://yukicoder.me/) で [testlib](https://github.com/MikeMirzayanov/testlib) ( + [rime](https://github.com/icpc-jag/rime)) を用いた入力生成器、入力検証器、スペシャルジャッジ生成を行うためのサンプルコード
 
 ## できること
 - yukicoder のジェネレータ機能において、testlib を利用したテストケース生成を行うことができる
