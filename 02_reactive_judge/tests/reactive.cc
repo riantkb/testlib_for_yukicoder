@@ -55,7 +55,7 @@ void quit_reactive(bool ok, const std::string& msg = "") {
     quitf(ok ? _ok : _wa, msg.c_str());
 #endif
 }
-// end template
+// end templates
 
 
 

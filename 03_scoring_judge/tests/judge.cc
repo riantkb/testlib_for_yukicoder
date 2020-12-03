@@ -47,7 +47,7 @@ void output_score(T score) {
     score_ofs << score << std::endl;
 #endif
 }
-// end template
+// end templates
 
 
 

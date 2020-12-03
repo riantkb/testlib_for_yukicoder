@@ -38,7 +38,7 @@ void registerTestlibForYukicoder(int argc, char* argv[]) {
         quit(_fail, std::string("Can not write to the score-file '") + argv[4] + std::string("'"));
 }
 #endif
-
+// end templates
 
 
 bool is_prime(long long n) {
