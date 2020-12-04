@@ -11,6 +11,7 @@
 ## 使い方
 - 対応するジャッジ形式の問題の `tests/TESTSET`, `tests/generator.cc`, `tests/validator.cc` (, `tests/judge.cc`, `tests/reactive.cc`) を参考に、適宜自分の問題に適したように書き換える。
 
+---
 
 ## やっていること
 ### 環境認識について
