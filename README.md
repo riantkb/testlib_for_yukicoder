@@ -10,6 +10,34 @@
 
 ## 使い方
 - 対応するジャッジ形式の問題の `tests/TESTSET`, `tests/generator.cc`, `tests/validator.cc` (, `tests/judge.cc`, `tests/reactive.cc`) を参考に、適宜自分の問題に適したように書き換える。
+  - `tests/TESTSET` に `flags=['-DIS_NOT_YUKICODER']` が必要な場合に注意してください
+
+
+## 例
+### ノーマルジャッジの例
+- [問題文](00_normal_judge/statement.md)
+- [generator](00_normal_judge/tests/generator.cc)
+- [validator](00_normal_judge/tests/validator.cc)
+
+### スペシャルジャッジの例
+- [問題文](01_special_judge/statement.md)
+- [generator](01_special_judge/tests/generator.cc)
+- [validator](01_special_judge/tests/validator.cc)
+- [judge](01_special_judge/tests/judge.cc)
+
+### リアクティブジャッジの例
+- [問題文](02_reactive_judge/statement.md)
+- [generator](02_reactive_judge/tests/generator.cc)
+- [validator](02_reactive_judge/tests/validator.cc)
+- [reactive](02_reactive_judge/tests/reactive.cc)
+- [judge](02_reactive_judge/tests/judge.cc)
+
+### スコアリングジャッジの例
+- [問題文](03_scoring_judge/statement.md)
+- [generator](03_scoring_judge/tests/generator.cc)
+- [validator](03_scoring_judge/tests/validator.cc)
+- [judge](03_scoring_judge/tests/judge.cc)
+
 
 ---
 
